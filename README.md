@@ -97,5 +97,6 @@ This repository serves as a **Portfolio Case Study**. The complete, proprietary 
 ### 8. Author
 
 - **Thiago de Almeida Louzada**
-- [LinkedIn Profile](https://www.linkedin.com/in/thiagoalouzada/)
+- [LinkedIn Profile](https://www.linkedin.com/in/thiago-de-almeida-louzada/)
 - [GitHub Profile](https://github.com/TALouzada)
+
