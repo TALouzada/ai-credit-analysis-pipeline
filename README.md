@@ -49,6 +49,10 @@ The solution uses a multi-workflow architecture to ensure security, robust error
 - **Pause State:** The workflow **pauses** indefinitely (using an `n8n Wait node`) until the approver submits their decision on the form.
 - **Final Decision:** Once the form is submitted, the workflow resumes, logs the decision, and notifies the original **requester** (via WhatsApp/Email) that the process is complete.
 
+*(**Note:** This diagram is a high-level representation of the data flow.)*
+
+![Architecture Diagram](img/architecture_diagram.png)
+
 ### 4. Tech Stack
 
 This project was built using a modern, integration-focused stack.
@@ -99,4 +103,5 @@ This repository serves as a **Portfolio Case Study**. The complete, proprietary 
 - **Thiago de Almeida Louzada**
 - [LinkedIn Profile](https://www.linkedin.com/in/thiago-de-almeida-louzada/)
 - [GitHub Profile](https://github.com/TALouzada)
+
 
