@@ -77,14 +77,14 @@ The core challenge was not just connecting APIs, but handling and interpreting m
 
   - Developed a JavaScript module to parse, clean, and structure massive JSON responses (often +50,000 characters) from credit bureaus in real-time.
   - This script removes thousands of irrelevant metadata tags (`<TAMANHOREGISTRO>`, etc.) and flattens the nested structure, making it clean and token-efficient for the AI to analyze.
-  - _(See: `/code-samples/json_cleaner_sample.js`)_
+  - _(See: [json_cleaner.js](code-samples/json_cleaner.js))_
 
 - **AI-as-Analyst (Advanced Prompt Engineering):**
 
   - Engineered a sophisticated, multi-part prompt that instructs the LLM to act as a senior legal analyst, not just a summarizer.
   - The prompt forces the AI to perform qualitative, temporal, and risk-based analysis (e.g., "Are the debts recent?", "What is the total risk value?", "Are the creditors banks or retail?").
   - Includes strict output formatting rules, forcing the AI to generate a clean, safe HTML fragment (`<b>`, `<ul>`, `<h2>`) to be rendered in the final form.
-  - _(See: `/code-samples/ai_analyst_prompt_template.md`)_
+  _(See: [ai_analyst_prompt_template.md](code-samples/ai_analyst_prompt_template.md))_
 
 - **Stateful "Human-in-the-Loop" (HIL) Logic:**
   - Architected a robust logic workflow that manages the entire process state, from the initial API calls to the final human decision, within a single execution.
@@ -103,5 +103,6 @@ This repository serves as a **Portfolio Case Study**. The complete, proprietary 
 - **Thiago de Almeida Louzada**
 - [LinkedIn Profile](https://www.linkedin.com/in/thiago-de-almeida-louzada/)
 - [GitHub Profile](https://github.com/TALouzada)
+
 
 
